@@ -1,0 +1,56 @@
+/*********REGOLE GENERALI**** */
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/********** REGOLE SEZIONE MAIN*********** */
+
+#main{
+    display: flex;
+    height: calc(100vh - 80px);
+    /* DEBUG */
+    /* background-color: chartreuse; */
+
+}
+
+.col{
+
+    /* DEBUG */
+    background-color: blue;
+    min-height: 300px;
+    min-width: 300px;
+}
+
+#sx{
+    width: 15%;
+    background-color: black;
+}
+
+#dx{
+    width: 85%;
+    background-color: rgb(88, 85, 85);
+}
+
+#banner{
+    position: fixed;
+    top:0;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(24, 23, 23, 0.9);
+}
+
+
+/******* REGOLE SEZIONE PLAYER********** */
+
+#player{
+    height: 80px;
+    background-color: rgb(68, 68, 68);
+}
