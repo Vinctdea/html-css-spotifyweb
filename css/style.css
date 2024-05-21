@@ -45,17 +45,6 @@ img{
     min-width: 200px;
 }
 
-#sx{
-    width: 200px;
-    background-color: black;    
-}
-
-#dx{
-    padding-top: 80px;
-    width: calc(100% - 200px);
-    background-color: rgb(88, 85, 85);
-}
-
 #banner{
     position: fixed;
     top:0;
@@ -63,7 +52,7 @@ img{
     z-index: 100;
     height: 70px;
     width: calc(100% - 200px);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: right;
     padding: 20px ;
 }
@@ -79,6 +68,12 @@ img{
 
 
 /****** regole menu nav********* */
+#sx{
+    padding: 1% 1% 0 1%;
+    width: 200px;
+    background-color: black;    
+}
+
 nav{
     padding: 10px;
     color: white;
@@ -89,13 +84,14 @@ nav > *{
 }
 
 #logo{
-    width: 85%;
+    width: 75%;
     text-align: center;
 }
 
 nav li{
     font-size: 15px;
     margin: 10px 0;
+    list-style-type: none;
 }
 
 #play{
@@ -115,6 +111,28 @@ nav li{
     margin-top: 10px;
     font-size: 13px;
     font-weight: lighter;
+}
+
+/******* REGOLE LESTE ALBUM ********/
+
+#dx{
+    padding: 1%;
+    margin-top: 70px;
+    width: calc(100% - 200px);
+    background-color: rgb(88, 85, 85);
+}
+
+#genere{
+    display: flex;
+    justify-content:  center;
+    gap: 10px;
+    color: rgb(199, 196, 196);
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+#genere span{
+    cursor: pointer;
 }
 
 
