@@ -31,8 +31,7 @@ img{
 #main{
     display: flex;
     height: 100vh;
-    position: relative;
-           
+              
     /* DEBUG */
     /* background-color: chartreuse; */
 
@@ -101,7 +100,7 @@ nav li{
 
 #play{
     overflow-y: auto;
-    height:calc( 100% - 300px) ;
+    height:calc( 100% - 350px) ;
 }
 
 #play > *{    
@@ -112,17 +111,18 @@ nav li{
     font-size: 30px;
 }
 
-#play h4{
+#play h4,#app{
     margin-top: 10px;
-    font-size: 12px;
-    font-style: italic;
+    font-size: 13px;
     font-weight: lighter;
 }
+
+
 
 /******* REGOLE SEZIONE PLAYER********** */
 
 #player{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
