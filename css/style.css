@@ -222,6 +222,12 @@ nav li{
         
     }
 
+    #loghi{
+        position: fixed;
+        top: 15px;
+        left: 15px
+    }
+
     #banner{
         width: calc(100% - 50px);
         left: 50px;
@@ -235,7 +241,7 @@ nav li{
     }
 
     #loghi img{
-        width: 50%;
+        width: 20px;
         margin: 10px auto;
         cursor: pointer;
     }
