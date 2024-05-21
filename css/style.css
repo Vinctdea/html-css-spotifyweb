@@ -7,7 +7,8 @@
 }
 body{
   font-family: "Montserrat", sans-serif;
-  
+  color: white;
+  height: 100vh;
 
 }
 
@@ -20,7 +21,7 @@ a{
 
 
 img{
-    display: inline-block;
+    display:block;
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
@@ -31,7 +32,6 @@ img{
 #main{
     display: flex;
     height: 100vh;
-              
     /* DEBUG */
     /* background-color: chartreuse; */
 
@@ -59,7 +59,7 @@ img{
 
 
 .btn{
-    color: white;   
+     
     border-radius: 30px;
     border: 1px solid white;
     padding: 5px 20px;
@@ -71,12 +71,12 @@ img{
 #sx{
     padding: 1% 1% 0 1%;
     width: 200px;
+    height: 100%;
     background-color: black;    
 }
 
 nav{
     padding: 10px;
-    color: white;
 }
 
 nav > *{
@@ -124,7 +124,7 @@ nav li{
 
 #genere{
     display: flex;
-    justify-content:  center;
+    justify-content: center;
     gap: 10px;
     color: rgb(199, 196, 196);
     text-transform: uppercase;
@@ -134,6 +134,48 @@ nav li{
 #genere span{
     cursor: pointer;
 }
+
+#container-played{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.album{
+    width: calc(100% / 6 - 10px);
+    text-align: center;
+    /* debug */
+    min-width: 150px;
+    /* min-height: 100px; */
+    /* background-color: aqua; */
+}
+
+.album h5{
+    font-weight:lighter;
+}
+
+.album>*{
+    margin-bottom: 10px ;
+}
+
+#container-crt{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.col-crt{
+    /* debug */
+    margin: 30px 0 ;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: rgb(35, 158, 97);
+}
+
+
+
 
 
 
