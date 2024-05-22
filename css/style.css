@@ -365,7 +365,7 @@ nav li{
 
 }
 
-/******regole hover block album ***************/
+/******regole hover ***************/
 
 .album:hover .hov{
     display: flex;
@@ -386,6 +386,16 @@ nav li{
     
 }
 
+.hsha:hover {
+    text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
+    cursor: pointer;
+}   
+
+.zoom:hover {
+    transform: scale(1.3);
+}
+
+
 /*****************REGOLE ACTIVE**************/
 .att:active{
     border-left: 3px solid greenyellow;
@@ -395,3 +405,4 @@ nav li{
 .bot-att:active{
     border-bottom: 3px solid greenyellow;
 }
+
