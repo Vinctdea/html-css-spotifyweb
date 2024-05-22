@@ -195,35 +195,8 @@ nav li{
     border-radius: 50%;
 }
 
-
-/******regole hover block album ***************/
-
-.album:hover .hov{
-    display: flex;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.hov{
-    display: none;
-    background-color: rgba(0, 0, 0, 0.7);
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 66%;
-    
-
-}
-
-
 .album .fa-play{
     font-size: 50px;
-    
-    
 }
 /*********** REGOLE MENU SX -568******** */
 
@@ -390,5 +363,35 @@ nav li{
     margin-top: 15px;
 }
 
+}
 
+/******regole hover block album ***************/
+
+.album:hover .hov{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.hov{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 66%;
+    
+}
+
+/*****************REGOLE ACTIVE**************/
+.att:active{
+    border-left: 3px solid greenyellow;
+    margin: 0 2px;
+}
+
+.bot-att:active{
+    border-bottom: 3px solid greenyellow;
 }
