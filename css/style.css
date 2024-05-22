@@ -8,7 +8,7 @@
 body{
   font-family: "Montserrat", sans-serif;
   color: white;
-  /* height: 100vh; */
+  
 
 }
 
@@ -35,16 +35,12 @@ h5{
 #main{
     display: flex;
     padding-bottom: 50px;
-    /* DEBUG */
-    /* background-color: chartreuse; */
+    
 
 }
 
 .col{
-   /* height: 100%; */
-    /* DEBUG */
-    /* background-color: blue; */
-    /* min-height: 300px; */
+   
     min-width: 200px;
 }
 
@@ -80,7 +76,6 @@ h5{
 #sx{
     padding: 1% 1% 0 1%;
     width: 200px;
-    /* height: 100vh; */
     background-color: black;    
 }
 
@@ -156,10 +151,8 @@ nav li{
 .album{
     width: calc(100% / 6 - 10px);
     text-align: center;
-    /* debug */
     min-width: 100px;
-    /* min-height: 100px; */
-    /* background-color: aqua; */
+    
 }
 
 
@@ -180,8 +173,7 @@ nav li{
     min-width: 100px;
     min-height: 100px;
     text-align: center;
-    /* debug */
-    /* background-color: rgb(35, 158, 97); */
+   
 }
 
 #cont-pop{
@@ -194,9 +186,7 @@ nav li{
     margin: 30px 0 ;
     min-width: 200px;
     min-height: 200px;
-    /* debug */
     
-    /* background-color: chocolate; */
 }
 
 
@@ -211,7 +201,6 @@ nav li{
     #sx-620{
         display: block;
         background-color: black;
-        /* height: 100%; */
         width: 50px;
         text-align: center;
     }
@@ -269,10 +258,20 @@ nav li{
         width: calc(50% - 10px)
     }
 
-    .col-crt{
+    .col-crt {
         width: 45%;
     }
 
+    .col-pop img{
+        width: 100px;
+        height: 100px;   
+    }
+    
+    .col-pop{
+        min-width: 100px;
+        min-height:100px;
+    }
+    
 }
 /******* REGOLE SEZIONE PLAYER********** */
 
@@ -291,10 +290,10 @@ nav li{
 }
 
 .col-ply{
-    /* debug */
-    min-height: 30px;
-    min-width: 30px;
-    /* background-color: darkblue; */
+    
+    /* min-height: 30px;
+    min-width: 30px; */
+    
 }   
 
 .cont-play{
@@ -342,4 +341,24 @@ nav li{
 
 .fa-play{
     font-size: 30px;
+}
+/* regole player 630px */
+@media screen and (max-width:800px){
+
+#player,.fa-play{
+    font-size: 15px;
+    text-align: center;
+}
+
+.bar-cont{
+    width: 100px;
+    
+}
+
+.tools{
+    gap: 10px;
+    margin-top: 15px;
+}
+
+
 }
