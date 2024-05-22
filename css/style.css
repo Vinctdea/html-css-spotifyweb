@@ -305,9 +305,38 @@ nav li{
     cursor: pointer;
 }
 
+.fa-play{
+    width: 15px;
+}
+
 .tools{
     display: flex;
     gap: 30px;
     align-items: center;
+    justify-content: center;
 
+}
+
+.bar-cont{  
+    width: 400px;
+    background-color: grey;
+    border: 30px;
+    height: 2px;
+
+}
+
+.bar{
+    width: 25%;
+    background-color: white;
+    border: 30px;
+    height: 2px;
+    overflow: hidden;
+}
+
+#bar-spec{
+    width: 100px;
+}
+
+.fa-play{
+    font-size: 30px;
 }
